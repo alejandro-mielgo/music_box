@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Music box</title>
+  </head>
+
+  <body>
+    <h1 class="neonText">MUSIC BOX</h1>
+    <div id="controls" class="text-center my 5">
+      <table class="table w-25 text-center mx-auto">
+        <tr>
+          <td><button id="bpm-down-btn" class="btn btn-light">-</button></td>
+          <td><label id="bpm-label">70 bpm</label></td>
+          <td><button id="bpm-up-btn" class="btn btn-light">+</button></td>
+        </tr>
+        <tr>
+          <td><button id="quarters-down-btn" class="btn btn-light">-</button></td>
+          <td><label id="quarters-label">number of quarters</label></td>
+          <td><button id="quarters-up-btn" class="btn btn-light">+</button></td>
+        </tr>  
+        <tr>
+          <td><button id="subdivisions-down-btn" class="btn btn-light">-</button></td>
+          <td><label id="bpm-label">quarter subdivisions</label></td>
+          <td><button id="subdivisions-up-btn" class="btn btn-light">+</button></td>
+        </tr>  
+    </table>
+      <button id="play-btn" class="btn btn-light">play</button>
+    </div>
+
+    <div id="rythm-box" class="text-center my-4">
+
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

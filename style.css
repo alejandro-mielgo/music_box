@@ -1,0 +1,48 @@
+body{
+  background-color: #000000;
+}
+table{
+  color: #FF204E !important;
+}
+
+.neonText {
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #FF204E,
+    0 0 82px #FF204E,
+    0 0 92px #FF204E,
+    0 0 102px #D30302,
+    0 0 151px #D30302;
+}
+
+.cell{
+  height: 35px;
+  width: 35px;
+  background-color:#FF204E;
+  border: none;
+  border-radius: 4px;
+  opacity: 80%;
+  box-shadow: 0 0 10px 1px #D30302;
+  margin: -6px 4px;
+}
+
+.active{
+  background-color:#A0153E
+}
+
+.cell-beat{
+  animation: beat 0.3s;
+}
+
+@keyframes beat {
+  10% { opacity: 80%; }
+  100% { opacity: 50%; }
+  
+}
+
+h1{
+  text-align: center;
+}
