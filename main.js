@@ -1,4 +1,4 @@
-import './style.css'
+
 import { createInstrumentBars , applyBeatCSS } from './elements.js'
 
 //selectores
